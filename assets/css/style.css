@@ -2,7 +2,9 @@
 *
 {
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 a
 {
@@ -67,7 +69,7 @@ nav .navbar .brand-logo
 }
 nav .navbar .brand-logo a
 {
-	color: #9c2222;
+	color: #eeeeee;
 	transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1s;
 }
 nav .navbar .brand-logo a:hover
@@ -112,6 +114,7 @@ nav .active
 	nav .navbar .nav-links
 	{
 		width: 100%;
+		margin-top: 5px;
 	}
 	
 	nav .navbar .nav-links ul
@@ -154,3 +157,48 @@ nav .active
 		color: #9c2222;
 	}
 }
+
+/* header section code start */
+header .header-inner
+{
+	margin-top: 7rem;
+}
+header .header-inner h1,h2
+{
+	color: #eeeeee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+header .header-inner h1
+{
+	font-size: 2.5rem;
+	font-weight: 700;
+	line-height: 1;
+	margin-top: 1rem;
+}
+header .header-inner .title
+{
+	position: relative;
+	overflow: hidden;
+}
+header .header-inner p
+{
+	margin-top: 2rem;
+	color: #eeeeee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
+	font-weight: 400;
+	text-align: center;
+	padding-left: 4rem;
+	padding-right: 4rem;
+}
+/* header section code end */
+/* header responsive code start */
+@media (max-width: 991px) {
+}
+/* header responsive code end */
